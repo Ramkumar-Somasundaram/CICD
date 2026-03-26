@@ -15,7 +15,7 @@ services:
  
   spring-app:
     build:
-      context: ./civic
+      context: .
       dockerfile: Dockerfile
     container_name: spring-container
     ports:
